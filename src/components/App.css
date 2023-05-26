@@ -1,0 +1,44 @@
+body{
+  background: rgb(20, 20, 30);
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.Header{
+  width: 100%;
+  height: fit-content;
+  background: url('https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/f3e406a5-6c41-4719-8cd8-657ac5c0e086/Leonardo_Diffusion_dark_background_wit_artificial_wires_of_emb_1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.Logo{
+  font-family: 'Permanent Marker', cursive;
+  cursor: pointer;
+  color: #fff;
+}
+
+.Header-Content{
+  width: 100%;
+  height: fit-content;
+  /* border: 3px solid #fff; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 10px;
+}
+.Contents{
+  /* border: #fff solid; */
+  padding: 20px;
+  height: fit-content;
+}
+.Contents h1{
+  margin-top: 30%;
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+.Img-Logo{
+  width: 60%;
+}
