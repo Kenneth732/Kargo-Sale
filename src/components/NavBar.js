@@ -15,8 +15,8 @@ function NavBar() {
                       <li><a  href="">Contact</a></li>
                     </Link>
                 </ul>
-                <Link to="/signup">
-                  <li><a  href="">SignIn</a></li>
+                <Link to="/form">
+                  <li><a  href="">Regester</a></li>
                 </Link>
             </nav>
         </div>

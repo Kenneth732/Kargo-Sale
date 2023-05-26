@@ -2,14 +2,17 @@ body{
   background: rgb(20, 20, 30);
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Permanent+Marker&display=swap');
 .Header{
   width: 100%;
   height: fit-content;
-  background: url('https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/f3e406a5-6c41-4719-8cd8-657ac5c0e086/Leonardo_Diffusion_dark_background_wit_artificial_wires_of_emb_1.jpg');
+  background: url('https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/6f3ebc0d-b7c4-482f-9cf2-f96094250fa5/Leonardo_Diffusion_In_the_aftermath_of_a_catastrophic_nuclear_0.jpg?w=512');
   background-position: center;
   background-size: cover;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .Logo{
@@ -28,18 +31,26 @@ body{
 }
 .Contents{
   /* border: #fff solid; */
-  padding: 20px;
+  padding: 20px 30px;
   height: fit-content;
 }
 .Contents h1{
-  margin-top: 30%;
-  font-size: 50px;
+  margin-top: 10%;
+  font-size: 60px;
   font-weight: 800;
   color: #fff;
-  text-align: center;
-  align-items: center;
+  font-family: 'Flow Circular', cursive;
 }
-
+.Contents h4{
+  font-family: 'Flow Circular', cursive;
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+}
+.Contents p{
+  font-family: 'Flow Circular', cursive;
+  color: #fff;
+}
 .Img-Logo{
   width: 60%;
 }
@@ -65,4 +76,11 @@ body{
   .Img-Logo{
     width: 100%;
   }
+}
+
+.Container-Content{
+  width: 100%;
+  height: 100vh;
+  /* background: #fff; */
+  border: #fff solid;
 }
