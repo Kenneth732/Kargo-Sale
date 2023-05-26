@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 import Contact from "./Contact";
 import Form from "./Form";
 import Home from "./Home";
+import About from "./About";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
 
         <Route path="/form">
           <Form />
+        </Route>
+        <Route path="/about">
+          <About />
         </Route>
         <Route exact path="/home">
           <Home />

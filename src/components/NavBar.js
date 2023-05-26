@@ -18,7 +18,7 @@ function NavBar() {
               <li><a href="#">Shop</a></li>
             </Link>
 
-            <Link to=''>
+            <Link to='/about'>
               <li><a href="#">About</a></li>
             </Link>
             <Link to="contact">
