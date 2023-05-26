@@ -31,6 +31,7 @@ function Form() {
             </div>
             <div className="text-card">
               <h2 className="animal-name">{item.name}</h2>
+              <p>Price: {item.price}</p>
               <p className="animal-description">{item.description}</p>
             </div>
           </div>

@@ -1,86 +1,63 @@
-body{
-  background: rgb(20, 20, 30);
-}
-
-  /* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); */
-
-  @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Permanent+Marker&display=swap');
-.Header{
-  width: 100%;
-  height: fit-content;
-  background: url('https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/6f3ebc0d-b7c4-482f-9cf2-f96094250fa5/Leonardo_Diffusion_In_the_aftermath_of_a_catastrophic_nuclear_0.jpg?w=512');
-  background-position: center;
+.hero {
+  background-image: url('https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/fce1123d-d463-4f0b-94bc-9f55ca9af15d/Leonardo_Diffusion_dark_background_with_mountain_covering_the_0.jpg');
   background-size: cover;
-  position: relative;
-  margin-bottom: 30px;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Logo{
-  font-family: 'Permanent Marker', cursive;
-  cursor: pointer;
+.hero-content {
+  text-align: center;
   color: #fff;
 }
 
-.Header-Content{
-  width: 100%;
-  height: fit-content;
-  /* border: 3px solid #fff; */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
-  gap: 10px;
-}
-.Contents{
-  /* border: #fff solid; */
-  padding: 20px 30px;
-  height: fit-content;
-}
-.Contents h1{
-  margin-top: 10%;
-  font-size: 60px;
-  font-weight: 800;
-  color: #fff;
-  font-family: 'Flow Circular', cursive;
-}
-.Contents h4{
-  font-family: 'Flow Circular', cursive;
-  font-size: 30px;
-  font-weight: 800;
-  color: #fff;
-}
-.Contents p{
-  font-family: 'Flow Circular', cursive;
-  color: #fff;
-}
-.Img-Logo{
-  width: 60%;
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
-@media (max-width: 480px) and (orientation: portrait) {
-  .Header{
-    background: none;
-  }
-  .Contents{
-    border: none;
-    padding: 20px;
-    height: fit-content;
-  }
-  .Contents h1{
-    margin-top: 30%;
-    font-size: 50px;
-    font-weight: 800;
-    color: #fff;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .Img-Logo{
-    width: 100%;
-  }
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.Container-Content{
-  width: 100%;
-  height: 100vh;
-  /* background: #fff; */
-  border: #fff solid;
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.feature {
+  text-align: center;
+  margin: 0 30px;
+}
+
+.feature i {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
 }

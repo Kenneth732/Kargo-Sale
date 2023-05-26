@@ -3,21 +3,31 @@ import Machine from '../assets/zax-removebg-preview.png'
 function Home() {
     return (
         <div className='Container'>
-            <div className="Header">
-                <div className="Header-Content">
-                    <div className="Contents">
-                        {/* <h1>Quantum Embroidery <br /> Evolution</h1> */}
-                        <h1>Quantum Embroidery <br /> Evolution</h1>
-                        <h4>Quantum Embroidery Eii an heheen </h4>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et pulvinar nibh, eu posuere dui. Sed feugiat quam lectus, a tincidunt neque consectetur non. Sed euismod pulvinar lacus. Nunc sapien neque, hendrerit non mauris sed, dictum condimentum dolor. Aenean gravida vestibulum faucibus. Praesent condimentum consequat mollis. 
-                        </p>
-                    </div>
-                    <div className="Contents">
-                        <img src={Machine} className='Img-Logo' />
-                    </div>
+        <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Eccomace</h1>
+                    <p>Your Ultimate E-commerce Destination</p>
+                    <a href="#" class="btn">Shop Now</a>
                 </div>
-            </div>
+            </section>
+
+            <section class="features">
+                <div class="feature">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Fast Shipping</h3>
+                    <p>Get your orders delivered quickly and efficiently.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-lock"></i>
+                    <h3>Secure Payments</h3>
+                    <p>Shop with confidence using our secure payment system.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Customer Support</h3>
+                    <p>Our dedicated support team is available around the clock.</p>
+                </div>
+            </section>
             <div className='Container-Content'>
                 <div className='Card'></div>
             </div>
