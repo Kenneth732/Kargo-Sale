@@ -11,7 +11,7 @@ function Home() {
                 </div>
             </section>
 
-            <section class="about-section section-padding" id="section_2">
+            <section className="about-section section-padding" id="section_2">
                 <div class="container">
                     <div class="row align-items-center">
 
