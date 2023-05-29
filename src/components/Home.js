@@ -11,21 +11,29 @@ function Home() {
                 </div>
             </section>
 
-            <section class="features">
-                <div class="feature">
-                    <i class="fas fa-shipping-fast"></i>
-                    <h3>Fast Shipping</h3>
-                    <p>Get your orders delivered quickly and efficiently.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-lock"></i>
-                    <h3>Secure Payments</h3>
-                    <p>Shop with confidence using our secure payment system.</p>
-                </div>
-                <div class="feature">
-                    <i class="fas fa-headset"></i>
-                    <h3>24/7 Customer Support</h3>
-                    <p>Our dedicated support team is available around the clock.</p>
+            <section class="about-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-5 col-12">
+                            <small class="section-small-title">Our Story</small>
+
+                            <h2 class="mt-2 mb-4"><span class="text-muted">Introducing</span> Moso</h2>
+
+                            <h4 class="text-muted mb-3">Since 1986, We crafted interior products for better spaces</h4>
+
+                            <p>Moso Interior is a free Bootstrap 5 HTML CSS template for your website. Tooplate is one of the best websites to download 100% free HTML Templates for web designers and developers around the world. Thank you for visiting.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
+                            <img src="images/sharing-design-ideas-with-family.jpg" class="about-image about-image-small img-fluid" alt="" />
+                        </div>
+
+                        <div class="col-lg-4 col-md-7 col-7">
+                            <img src="images/living-room-interior-wall-mockup-warm-tones-with-leather-sofa-which-is-kitchen-3d-rendering.jpg" className="about-image img-fluid" alt="" />
+                        </div>
+
+                    </div>
                 </div>
             </section>
             <footer class="site-footer">
