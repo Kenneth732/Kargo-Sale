@@ -16,7 +16,7 @@ function Home() {
                     <div class="row align-items-center">
 
                         <div class="col-lg-5 col-12">
-                            <small class="section-small-title">Our Story</small>
+                            <small className="section-small-title">Our Story</small>
 
                             <h2 class="mt-2 mb-4"><span class="text-muted">Introducing</span> Moso</h2>
 
@@ -26,11 +26,11 @@ function Home() {
                         </div>
 
                         <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
-                            <img src="images/sharing-design-ideas-with-family.jpg" className="about-image about-image-small img-fluid" alt="" />
+                            <img src="https://cdn.leonardo.ai/users/950be092-1638-4663-b1e4-e57a20fd7679/generations/718e259a-742d-4d2f-b98a-5203080bc328/variations/Default_editorial_photograph_of_a_20_yo_woman_from_the_1940s_1_1_718e259a-742d-4d2f-b98a-5203080bc328_1.jpg" className="about-image about-image-small img-fluid" alt="" />
                         </div>
 
                         <div class="col-lg-4 col-md-7 col-7">
-                            <img src="images/living-room-interior-wall-mockup-warm-tones-with-leather-sofa-which-is-kitchen-3d-rendering.jpg" className="about-image img-fluid" alt="" />
+                            <img src="" className="about-image img-fluid" alt="" />
                         </div>
 
                     </div>
