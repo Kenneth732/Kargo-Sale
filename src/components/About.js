@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
 
-<section id="about" class="about">
+<section id="about" classNane="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
