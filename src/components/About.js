@@ -13,7 +13,7 @@ function About() {
         </div>
 
         <div className="row">
-          <div class="col-lg-4">
+          <div className="col-lg-4">
             <img src="https://cdn.leonardo.ai/users/9c8d859f-322d-41be-a972-492b67272818/generations/584666f2-7ef1-4e63-a7ae-24dd1f595c75/variations/Default_masterpiece_realistic_27yr_old_female_beautiful_face_w_2_584666f2-7ef1-4e63-a7ae-24dd1f595c75_1.jpg" class="img-fluid" alt="" />
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
