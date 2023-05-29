@@ -10,32 +10,208 @@ function Home() {
                     <a href="#" class="btn">Shop Now</a>
                 </div>
             </section>
+            <section class="shop-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
 
-            <section className="about-section section-padding" id="section_2">
-                <div className="container">
-                    <div className="row align-items-center">
+                        <div class="col-lg-12 col-12">
+                            <small class="section-small-title">Moso Design Shop</small>
 
-                        <div className="col-lg-5 col-12">
-                            <small className="section-small-title">Our Story</small>
-
-                            <h2 class="mt-2 mb-4"><span class="text-muted">Introducing</span> Moso</h2>
-
-                            <h4 class="text-muted mb-3">Since 1986, We crafted interior products for better spaces</h4>
-
-                            <p>Moso Interior is a free Bootstrap 5 HTML CSS template for your website. Tooplate is one of the best websites to download 100% free HTML Templates for web designers and developers around the world. Thank you for visiting.</p>
+                            <h2 class="mt-2 mb-4"><span class="tooplate-red">Interior</span> Products</h2>
                         </div>
 
-                        <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
-                            <img src="https://cdn.leonardo.ai/users/950be092-1638-4663-b1e4-e57a20fd7679/generations/718e259a-742d-4d2f-b98a-5203080bc328/variations/Default_editorial_photograph_of_a_20_yo_woman_from_the_1940s_1_1_718e259a-742d-4d2f-b98a-5203080bc328_1.jpg" className="about-image about-image-small img-fluid" alt="" />
+                        <div class="col-lg-6 col-12">
+                            <div class="shop-thumb">
+                                <div class="shop-image-wrap">
+                                    <a href="shop-detail.html">
+                                        <img src="https://cdn.leonardo.ai/users/cc91876d-418b-4856-82a3-b277d5cda999/generations/e612150b-43ae-4ea4-9522-4c6cae2b661a/Leonardo_Diffusion_The_picture_showcases_the_versatility_and_p_0.jpg?w=512" className="shop-image img-fluid" alt="" />
+                                    </a>
+
+                                    <div class="shop-icons-wrap">
+                                        <div class="shop-icons d-flex flex-column align-items-center">
+                                            <a href="#" class="shop-icon bi-heart"></a>
+
+                                            <a href="#" class="shop-icon bi-bookmark"></a>
+                                        </div>
+
+                                        <p class="shop-pricing mb-0 mt-3">
+                                            <span class="badge custom-badge">$3,600</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="shop-btn-wrap">
+                                        <a href="shop-detail.html" class="shop-btn custom-btn btn d-flex align-items-center align-items-center">Learn more</a>
+                                    </div>
+                                </div>
+
+                                <div class="shop-body">
+                                    <h4>Bathroom</h4>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-7 col-7">
-                            <img src="" className="about-image img-fluid" alt="" />
-                        </div>
+                        {/* <div class="col-lg-6 col-12">
+                            <div class="shop-thumb">
+                                <div class="shop-image-wrap">
+                                    <a href="shop-detail.html">
+                                        <img src="images/shop/mock-up-poster-modern-dining-room-interior-design-with-white-empty-wall.jpg" class="shop-image img-fluid" alt="" />
+                                    </a>
+
+                                    <div class="shop-icons-wrap">
+                                        <div class="shop-icons d-flex flex-column align-items-center">
+                                            <a href="#" class="shop-icon bi-heart"></a>
+
+                                            <a href="#" class="shop-icon bi-bookmark"></a>
+                                        </div>
+
+                                        <p class="shop-pricing mb-0 mt-3">
+                                            <span class="badge custom-badge">$6,400</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="shop-btn-wrap">
+                                        <a href="shop-detail.html" class="shop-btn custom-btn btn d-flex align-items-center align-items-center">Learn more</a>
+                                    </div>
+                                </div>
+
+                                <div class="shop-body">
+                                    <h4>Dining</h4>
+                                </div>
+                            </div>
+                        </div> */}
+
+                        {/* <div class="col-lg-4 col-12">
+                            <div class="shop-thumb">
+                                <div class="shop-image-wrap">
+                                    <a href="shop-detail.html">
+                                        <img src="images/shop/green-sofa-white-living-room-with-blank-table-mockup.jpg" class="shop-image img-fluid" alt="" />
+                                    </a>
+
+                                    <div class="shop-icons-wrap">
+                                        <div class="shop-icons d-flex flex-column align-items-center">
+                                            <a href="#" class="shop-icon bi-heart"></a>
+
+                                            <a href="#" class="shop-icon bi-bookmark"></a>
+                                        </div>
+
+                                        <p class="shop-pricing mb-0 mt-3">
+                                            <span class="badge custom-badge">$2,400</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="shop-btn-wrap">
+                                        <a href="shop-detail.html" class="shop-btn custom-btn btn d-flex align-items-center align-items-center">Learn more</a>
+                                    </div>
+                                </div>
+
+                                <div class="shop-body">
+                                    <h4>Living Room</h4>
+                                </div>
+                            </div>
+                        </div> */}
+
+                        {/* <div class="col-lg-4 col-12">
+                            <div class="shop-thumb">
+                                <div class="shop-image-wrap">
+                                    <a href="shop-detail.html">
+                                        <img src="images/shop/concept-home-cooking-with-female-chef.jpg" class="shop-image img-fluid" alt="" />
+                                    </a>
+
+                                    <div class="shop-icons-wrap">
+                                        <div class="shop-icons d-flex flex-column align-items-center">
+                                            <a href="#" class="shop-icon bi-heart"></a>
+
+                                            <a href="#" class="shop-icon bi-bookmark"></a>
+                                        </div>
+
+                                        <p class="shop-pricing mb-0 mt-3">
+                                            <span class="badge custom-badge">$3,800</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="shop-btn-wrap">
+                                        <a href="shop-detail.html" class="shop-btn custom-btn btn d-flex align-items-center align-items-center">Learn more</a>
+                                    </div>
+                                </div>
+
+                                <div class="shop-body">
+                                    <h4>Chef Kitchen</h4>
+                                </div>
+                            </div>
+                        </div> */}
+
+                        {/* <div class="col-lg-4 col-12">
+                            <div class="shop-thumb">
+                                <div class="shop-image-wrap">
+                                    <a href="shop-detail.html">
+                                        <img src="images/shop/childrens-bed-nursery-cot-velvet-childrens-room.jpg" class="shop-image img-fluid" alt="" />
+                                    </a>
+
+                                    <div class="shop-icons-wrap">
+                                        <div class="shop-icons d-flex flex-column align-items-center">
+                                            <a href="#" class="shop-icon bi-heart"></a>
+
+                                            <a href="#" class="shop-icon bi-bookmark"></a>
+                                        </div>
+
+                                        <p class="shop-pricing mb-0 mt-3">
+                                            <span class="badge custom-badge">$850</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="shop-btn-wrap">
+                                        <a href="shop-detail.html" class="shop-btn custom-btn btn d-flex align-items-center align-items-center">Learn more</a>
+                                    </div>
+                                </div>
+
+                                <div class="shop-body">
+                                    <h4>Childrens Bedroom</h4>
+                                </div>
+                            </div>
+                        </div> */}
+{/* 
+                        <div class="col-lg-12 col-12">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="page-item active" aria-current="page">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">4</a>
+                                    </li>
+
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">5</a>
+                                    </li>
+                                    
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div> */}
 
                     </div>
                 </div>
             </section>
+
             <footer class="site-footer">
                 <div class="container">
                     <div class="row">
