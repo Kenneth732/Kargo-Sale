@@ -26,7 +26,7 @@ function Home() {
                         </div>
 
                         <div class="col-lg-3 col-md-5 col-5 mx-lg-auto">
-                            <img src="images/sharing-design-ideas-with-family.jpg" class="about-image about-image-small img-fluid" alt="" />
+                            <img src="images/sharing-design-ideas-with-family.jpg" className="about-image about-image-small img-fluid" alt="" />
                         </div>
 
                         <div class="col-lg-4 col-md-7 col-7">
