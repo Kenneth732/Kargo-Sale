@@ -10,7 +10,7 @@ function NavBar() {
         <nav>
           <a href="#" class="logo">Kargo</a>
           <ul>
-            <Link to='/home'>
+            <Link to=''>
               <li><a href="">Home</a></li>
             </Link>
 
