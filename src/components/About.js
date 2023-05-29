@@ -4,26 +4,51 @@ function About() {
     return (
         <div>
 
+<section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
 
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+            </p>
+          </div>
+        </div>
 
-<section class="about">
-  <div class="about-container">
-    <h2>About Us</h2>
-    <div class="about-content">
-      <div class="about-text">
-        <h3>Welcome to Eccomace</h3>
-        <p>Step into a world where reality and imagination merge, where technological advancements redefine the possibilities of existence. Eccomace is the frontier of innovation, propelling humanity towards a future yet to be unveiled.</p>
-        <p>At Eccomace, we transcend the confines of conventional commerce. Our mission is to reshape the fabric of existence by offering revolutionary products, fueled by breakthrough technologies. From bio-integrated implants to quantum-infused wearables, our catalog embodies the pinnacle of human ingenuity.</p>
-        <p>Unlock the door to an extraordinary future. Join us as we embark on an odyssey through uncharted realms, where artificial intelligence harmonizes with human potential and the limits of imagination cease to exist.</p>
       </div>
-      <div class="about-image">
-        <img src="https://cdn.leonardo.ai/users/ca9e5ae6-c2a1-45db-80c6-2bc46654f209/generations/238f227b-11cc-4da0-957a-3e6c5e611967/Leonardo_Diffusion_The_embroidery_machine_with_four_heads_is_a_0.jpg" alt="About Image" />
-      </div>
-    </div>
-  </div>
-</section>
-
+    </section>
 
         </div>
     )
